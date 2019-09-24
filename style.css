@@ -1,64 +1,27 @@
                               /****** HEADER ******/
-@font-face {
-	src: url('fonts/PoppinsReg.ttf');
-	font-family: 'Popins'; 
-	font-weight: 400;
-}
-.body {
-	width: 1199px;
-}
-
 .header {
-	background-image: url("foto/fon_girl.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: block;
-	height: 714px;
-}
+    background-image: url("foto/fon_girl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 714px;
+    position: relative;
+ }
 
+ .title {
+ 	padding: 40px 0 0 40px; 
+ }
 
-.title {
-	font-size: 20px;
+ .links {
+	font-size: 12px;
 	text-transform: uppercase;
-	line-height: 1.18;
-	letter-spacing: 4.78px;
-	height: 39px;
-	width: 100px;
-	display: inline;
-	margin-top: 28px;
-	margin-left: 35px;
-	font-family: Poppins;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	/*text-align: left;*/
-	color: #000000;
-}
-
-.lin-about {
-	width: 52px;
-	height: 9px;
-	/*position: relative;
-	padding: 42px 243px 663px 904px;*/
 	display: flex;
-	flex: 50%;
-
-}
-
-.lin-works {
-	width: 55px;
-	height: 9px;
-	/*margin: 42px 243px 663px 904px;*/
-	display: flex;
-	flex: 50%;
-}
-
-.lin-contact {
-	width: 75px;
-	height: 9px;
-	/*margin: 42px 243px 663px 904px;*/
-	display: flex;
-	flex: 50%;
+	justify-content: space-between;
+	width: 400px;  
+	list-style-type: none; 
+	line-height: 2.79;
+	letter-spacing: 2.87px;
+	padding: 40px;
 }
 
 .menu-container {
@@ -66,110 +29,107 @@
 	justify-content: space-between;
 }
 
-.links {
-	font-size: 12px;
-	text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    width: 400px;  
-    list-style-type: none; 
-	font-family: Poppins;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2.79;
-	letter-spacing: 2.87px;
-	text-align: left;
-	color: #000000;
-}
-
 .header-container {
-	margin: 150px 0 0 0;
+	margin: 150px 0 0 50px;
 }
 
 .subtitle {
 	font-size: 20px;
 	text-transform: uppercase;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 0.93;
-	letter-spacing: 2px;
-	text-align: left;
-	color: #000000;
 }
 
 .about {
-	margin: 10px 0 0 0;
-	  width: 399px;
-  height: 71px;
-  font-family: Poppins;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.58;
-  letter-spacing: 0.48px;
-  text-align: left;
-  color: #000000;
+	margin: 10px 0 20px 0;
+	max-width: 400px;
+	font-size: 12px;
+	line-height: 1.58;
+	letter-spacing: 0.48px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.hire-me {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.download {
+	color: #000;
+	font-size: 12px;
 }
 
 .button {
 	color: #fff;
 	border: 2px solid #fff;
-	text-align: centr; 
 	font-size: 12px;
-	 width: 194px;
-  height: 42px;
 	border-radius: 20px;
 	padding: 16px 43px 16px 42px;
 	background: transparent;
 	text-transform: uppercase;
-	
-	}
-                               /****** Секция 1 ********/
-.сontainer-section1 {
+}
+
+/****** Секция 1 ********/
+
+.сontainer-about {
 	display: flex;
+	justify-content: space-around;
+}
+
+.portfolio-image {
+	width: 308px;
+	height: 340px;
+}
+
+.subtitle-small {
+	font-size: 12px;
+}
+
+.about-Me-container {
+	display: flex; 
+	flex-direction: column;
+} 
+
+.about-me {
+	display: flex;
+	width: 800px;
 	justify-content: space-between;
 }
 
-
-.portfolio-image {
-width: 308px;
-height: 340px;
- }
-
- .subtitle-small {
- 	font-size: 12px;
- }
-.about-Me-container {
-	display: flex; 
-} 
-.column1 {
-	flex: 50%;
-}
-
-.about {
-	max-width: 339px;
-}
 .row {
 	display: flex;
 }
-.column {
+.column { 
 	flex: 50%;
 }
 
-                              /****** Секция 2 ********/
-.container-section2 {
+.work-title {
+	font-size: 12px;
+}
+
+.year {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);	
+}
+
+/****** Секция 2 ********/
+
+.container-works {
 	text-align: center;
 	background-color: #d1bac8;
 }
 
-/*.foto title {
-	text-align: center;
-}*/
-.links2 {
-	 display: flex;
-    justify-content: space-between;  
-    list-style-type: none;  
+.foto {
+	padding: 30px 0;
+	margin: 20px 0;
+}
+
+.foto-text {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.links-foto {
+	display: flex;
+	justify-content: space-around;  
+	list-style-type: none;
+	padding: 0;  
 }
